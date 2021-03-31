@@ -3,7 +3,7 @@ import {useTranslation} from 'react-i18next';
 import './translation.config';
 
 
-function NavMenu(props) {
+function MainPart(props) {
 
 	const {t} = useTranslation('projectTranslation');
 
@@ -14,4 +14,4 @@ function NavMenu(props) {
 	);
 }
 
-export default NavMenu;
+export default MainPart;
